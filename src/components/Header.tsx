@@ -15,7 +15,7 @@ const Header = () => {
     <header className="bg-white w-full px-4 sm:px-6 py-3 sm:py-4 shadow-md relative z-50">
       <div className="max-w-[1200px] mx-auto flex items-center justify-between">
         <div className="flex items-center gap-3 sm:gap-4">
-          <button
+          {/* <button
             className="md:hidden p-2 border border-gray-200 rounded-lg"
             onClick={() => setIsOpen(!isOpen)}
           >
@@ -24,7 +24,7 @@ const Header = () => {
             ) : (
               <Menu className="w-6 h-6 text-gray-700" />
             )}
-          </button>
+          </button> */}
           <LogoSvg />
         </div>
 
