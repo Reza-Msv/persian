@@ -4,6 +4,7 @@ import HeroSection from "@/components/main/HeroSection";
 import ServicesSection from "@/components/main/ServicesSection";
 
 export default function Home() {
+  return "this page "
   return (
     <>
       <HeroSection />
